@@ -6,6 +6,7 @@ const port = env.PORT || 3333;
 app
   .listen({
     port: port,
+    host: '0.0.0.0'
   })
   .then(() => {
     console.log('HTTP Server Running!')
